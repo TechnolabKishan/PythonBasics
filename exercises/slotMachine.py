@@ -57,12 +57,10 @@ def main():
             
             balance -= bet
 
-            # Spin the row
             print("Spinning...\n")
             row = spin_row()
             print_row(row)
 
-            # Calculate payout
             payout = get_payout(row, bet)
             if payout > 0:
                 print(f'You won ${payout}! 🎉')
