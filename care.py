@@ -6,7 +6,10 @@ class Auto:
         self.for_Sale = for_Sale
 
     def drive(self):
-        print(f'you drive the {self.model}')
+        print(f'you drive the {self.color} {self.model}')
 
     def stop(self):
-        print(f'you stopped the {self.model}')
+        print(f'you stopped the {self.color} {self.model}')
+
+    def describe(self):
+        print(f'{self.year} {self.color} {self.model}')
