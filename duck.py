@@ -17,7 +17,6 @@ class Car(Animal):
     alive = False
     def speak(self):
         print('HONK')
-        alive = False
 
 animals = [Dog(), Cat(), Car()]
 
