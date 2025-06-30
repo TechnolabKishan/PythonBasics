@@ -14,9 +14,9 @@ import csv
 # }
 
 employee = [['name', 'age', 'job'],
-            ['kishan', 18, 'IT Developer'],
-            ['Saroj', 28, 'Data analyst'],
-            ['Parwesh', '24', 'Data analyst']]
+            ['Elmo', 18, 'IT Developer'],
+            ['Nd', 28, 'Noob'],
+            ['Blaaster', '24', 'Pro gk']]
 
 file_path = 'C:/Users/Kisha/gibberish.csv'
 
